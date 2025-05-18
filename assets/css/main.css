@@ -946,3 +946,10 @@ section,
 .contact-icons img:hover {
   transform: scale(1.5); 
 }
+@media (max-width: 600px){
+.contact-icons img{
+  width: 30px !important;
+  height: 30px !important;
+  gap: 20px;
+}
+}
